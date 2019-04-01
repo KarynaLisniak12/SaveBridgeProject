@@ -1,0 +1,9 @@
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.deps.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.csprojAssemblyReference.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.csproj.CoreCompileInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.AssemblyInfoInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.AssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb

@@ -1,0 +1,14 @@
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.1\SaveBridge.deps.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.1\SaveBridge.runtimeconfig.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.1\SaveBridge.runtimeconfig.dev.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.1\SaveBridge.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.1\SaveBridge.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.csprojAssemblyReference.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.csproj.CoreCompileInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.RazorAssemblyInfo.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.RazorAssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.AssemblyInfoInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.AssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.RazorTargetAssemblyInfo.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.1\SaveBridge.pdb

@@ -1,0 +1,14 @@
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\SaveBridge.DataAccess.deps.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\SaveBridge.DataAccess.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.csprojAssemblyReference.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.csproj.CoreCompileInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.AssemblyInfoInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.AssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\SaveBridge.Entities.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\SaveBridge.Entities.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.csproj.CopyComplete
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\bin\Debug\netcoreapp2.1\SaveBridge.DataAccess.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.DataAccess\obj\Debug\netcoreapp2.1\SaveBridge.DataAccess.pdb

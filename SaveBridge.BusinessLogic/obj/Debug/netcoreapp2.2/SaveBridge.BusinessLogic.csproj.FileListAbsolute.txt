@@ -1,0 +1,9 @@
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.deps.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.csprojAssemblyReference.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.csproj.CoreCompileInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.AssemblyInfoInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.AssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.pdb

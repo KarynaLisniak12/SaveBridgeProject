@@ -1,0 +1,12 @@
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\bin\Debug\netcoreapp2.2\SaveBridge.Entities.deps.json
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\bin\Debug\netcoreapp2.2\SaveBridge.Entities.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\bin\Debug\netcoreapp2.2\SaveBridge.Entities.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.csprojAssemblyReference.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.csproj.CoreCompileInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.AssemblyInfoInputs.cache
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.AssemblyInfo.cs
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.csproj.CopyComplete
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.Entities\obj\Debug\netcoreapp2.2\SaveBridge.Entities.pdb
