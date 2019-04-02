@@ -2,7 +2,7 @@
 
 namespace SaveBridge.ViewModels.BuildingConstruction
 {
-    public class CreateBuildingConstruction
+    public class CreateBuildingViewModel
     {
         public string Title { get; set; }
 

@@ -8,7 +8,7 @@ namespace SaveBridge.BusinessLogic.AutoMapper
     {
         public MapperProfile()
         {
-            CreateMap<CreateBuildingConstruction, BuildingConstruction>();
+            CreateMap<CreateBuildingViewModel, BuildingConstruction>();
         }
     }
 }

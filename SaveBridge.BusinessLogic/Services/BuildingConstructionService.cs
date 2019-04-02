@@ -17,10 +17,10 @@ namespace SaveBridge.BusinessLogic.Services
             _mapper = mapper;
         }
 
-        public void CreateBuildingConstruction(CreateBuildingConstruction model)
+        public void CreateBuildingConstruction(CreateBuildingViewModel model)
         {
             BuildingConstruction buildingConstruction = _mapper
-                .Map<CreateBuildingConstruction, BuildingConstruction>(model);
+                .Map<CreateBuildingViewModel, BuildingConstruction>(model);
 
             _unitOfWorks.BuildingConstructionRepository.Add(buildingConstruction);
         }

@@ -4,6 +4,6 @@ namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
     public interface IBuildingConstructionService
     {
-        void CreateBuildingConstruction(CreateBuildingConstruction buidingConstruction);
+        void CreateBuildingConstruction(CreateBuildingViewModel buildingConstruction);
     }
 }

@@ -15,7 +15,7 @@ namespace SaveBridge.Controllers
         }
 
         [HttpPost("create")]
-        public IActionResult Create([FromBody] CreateBuildingConstruction model)
+        public IActionResult Create([FromBody] CreateBuildingViewModel model)
         {
             if (!ModelState.IsValid)
             {

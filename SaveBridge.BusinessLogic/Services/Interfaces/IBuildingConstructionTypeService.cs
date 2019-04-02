@@ -1,4 +1,5 @@
-﻿using SaveBridge.Entities;
+﻿using SaveBridge.ViewModels.BuildingConstruction;
+using SaveBridge.ViewModels.BuildingConstructionType;
 using System;
 using System.Collections.Generic;
 
@@ -6,12 +7,12 @@ namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
     public interface IBuildingConstructionTypeService
     {
-        void Create(BuildingConstructionType buildingConstructionType);
+        void Create(CreateBuildingTypeViewModel buildingConstructionType);
 
-        IEnumerable<BuildingConstructionType> GetAll();
+        IEnumerable<BuildingTypeViewModel> GetAll();
 
         void Delete(Guid id);
 
-        void Update(BuildingConstructionType buildingConstructionType);
+        void Update(UpdateBuildingTypeViewModel buildingConstructionType);
     }
 }
