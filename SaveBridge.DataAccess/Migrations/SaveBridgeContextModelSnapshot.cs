@@ -213,9 +213,7 @@ namespace SaveBridge.DataAccess.Migrations
 
                     b.Property<Guid>("BuildingConstructionTypeId");
 
-                    b.Property<Guid?>("CityId");
-
-                    b.Property<Guid>("CountryId");
+                    b.Property<Guid>("CityId");
 
                     b.Property<double>("CurrentBreakdownPercent");
 
@@ -394,7 +392,8 @@ namespace SaveBridge.DataAccess.Migrations
 
                     b.HasOne("SaveBridge.Entities.City", "City")
                         .WithMany("BuildingConstructions")
-                        .HasForeignKey("CityId");
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("SaveBridge.Entities.City", b =>

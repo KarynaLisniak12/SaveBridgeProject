@@ -9,7 +9,7 @@ namespace SaveBridge.Entities
 
         public string Title { get; set; }
 
-        public Guid CountryId { get; set; }
+        public Guid CityId { get; set; }
 
         public string Address { get; set; }
 

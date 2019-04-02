@@ -9,12 +9,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Scrutor" Version="3.0.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SaveBridge.BusinessLogic\SaveBridge.BusinessLogic.csproj" />
     <ProjectReference Include="..\SaveBridge.DataAccess\SaveBridge.DataAccess.csproj" />
+    <ProjectReference Include="..\SaveBridge.ViewModels\SaveBridge.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

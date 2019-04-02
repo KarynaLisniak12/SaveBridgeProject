@@ -7,3 +7,16 @@ E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debu
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.AssemblyInfo.cs
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.dll
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.DataAccess.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.Entities.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Relational.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.DataAccess.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\SaveBridge.Entities.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.Relational.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.BusinessLogic\obj\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.csproj.CopyComplete

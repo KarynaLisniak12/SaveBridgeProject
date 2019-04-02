@@ -2,6 +2,41 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Autofac/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
+      "AutoMapper/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -2974,6 +3009,19 @@
           }
         }
       },
+      "Scrutor/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.DependencyModel": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Scrutor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Scrutor.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4439,6 +4487,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "SaveBridge.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "SaveBridge.DataAccess": "1.0.0",
+          "SaveBridge.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SaveBridge.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SaveBridge.BusinessLogic.dll": {}
+        }
+      },
       "SaveBridge.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -4463,10 +4526,70 @@
         "runtime": {
           "bin/placeholder/SaveBridge.Entities.dll": {}
         }
+      },
+      "SaveBridge.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/SaveBridge.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SaveBridge.ViewModels.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/4.9.2": {
+      "sha512": "lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "type": "package",
+      "path": "autofac/4.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "AutoMapper/8.0.0": {
+      "sha512": "px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
+      "type": "package",
+      "path": "automapper/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+      "sha512": "njWYKGM3FokOlo9nj8kVLYyvJrGbLItmNA2A00lDXJnxybfP7TuZEYjQRt8ne+Cp0OF4W0ZzgdgxMioHfDEpdA==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -7691,6 +7814,23 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Scrutor/3.0.2": {
+      "sha512": "eevFT6R8vDIB4bVDxFeEGQQJX3o7xUYcKMluf6XnnyPJEV3P4OP2oQmKXxgcy6qEkJXgEMddkVvgPl9J0dx09A==",
+      "type": "package",
+      "path": "scrutor/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Scrutor.dll",
+        "lib/net461/Scrutor.pdb",
+        "lib/net461/Scrutor.xml",
+        "lib/netstandard2.0/Scrutor.dll",
+        "lib/netstandard2.0/Scrutor.pdb",
+        "lib/netstandard2.0/Scrutor.xml",
+        "scrutor.3.0.2.nupkg.sha512",
+        "scrutor.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -12092,6 +12232,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "SaveBridge.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../SaveBridge.BusinessLogic/SaveBridge.BusinessLogic.csproj",
+      "msbuildProject": "../SaveBridge.BusinessLogic/SaveBridge.BusinessLogic.csproj"
+    },
     "SaveBridge.DataAccess/1.0.0": {
       "type": "project",
       "path": "../SaveBridge.DataAccess/SaveBridge.DataAccess.csproj",
@@ -12101,14 +12246,25 @@
       "type": "project",
       "path": "../SaveBridge.Entities/SaveBridge.Entities.csproj",
       "msbuildProject": "../SaveBridge.Entities/SaveBridge.Entities.csproj"
+    },
+    "SaveBridge.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SaveBridge.ViewModels/SaveBridge.ViewModels.csproj",
+      "msbuildProject": "../SaveBridge.ViewModels/SaveBridge.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "AutoMapper >= 8.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
+      "Autofac >= 4.9.2",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "SaveBridge.DataAccess >= 1.0.0"
+      "SaveBridge.BusinessLogic >= 1.0.0",
+      "SaveBridge.DataAccess >= 1.0.0",
+      "SaveBridge.ViewModels >= 1.0.0",
+      "Scrutor >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -12141,8 +12297,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj": {
+              "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj"
+            },
             "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
               "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj"
+            },
+            "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
+              "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj"
             }
           }
         }
@@ -12156,6 +12318,18 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.9.2, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -12172,6 +12346,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Scrutor": {
+            "target": "Package",
+            "version": "[3.0.2, )"
           }
         },
         "imports": [

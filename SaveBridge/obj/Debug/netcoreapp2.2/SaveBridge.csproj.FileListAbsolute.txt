@@ -17,3 +17,7 @@ E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.DataAccess.pdb
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.Entities.pdb
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.2\SaveBridge.csproj.CopyComplete
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
