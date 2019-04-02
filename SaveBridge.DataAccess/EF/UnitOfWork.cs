@@ -9,12 +9,40 @@ namespace SaveBridge.DataAccess.EF
 
         public IBuildingConstructionRepository BuildingConstructionRepository { get; set; }
 
+        public IBuildingConstructionTypeRepository BuildingConstructionTypeRepository { get; set; }
+
+        public IPressureRepository PressureRepository { get; set; }
+
+        public IVibrationRepository VibrationRepository { get; set; }
+
+        public ICityRepository CityRepository { get; set; }
+
+        public ICountryRepository CountryRepository { get; set; }
+
+        public IBreakdownRepository BreakdownRepository { get; set; }
+
+        public IRenovationRepository RenovationRepository { get; set; }
+        
         public UnitOfWork(
-            SaveBridgeContext dbContext,
-            IBuildingConstructionRepository buidingConstructionRepository)
+            SaveBridgeContext dbContext, 
+            IBuildingConstructionRepository buildingConstructionRepository, 
+            IBuildingConstructionTypeRepository buildingConstructionTypeRepository, 
+            IPressureRepository pressureRepository, 
+            IVibrationRepository vibrationRepository, 
+            ICityRepository cityRepository, 
+            ICountryRepository countryRepository, 
+            IBreakdownRepository breakdownRepository, 
+            IRenovationRepository renovationRepository)
         {
             _dbContext = dbContext;
-            BuildingConstructionRepository = buidingConstructionRepository;
+            BuildingConstructionRepository = buildingConstructionRepository;
+            BuildingConstructionTypeRepository = buildingConstructionTypeRepository;
+            PressureRepository = pressureRepository;
+            VibrationRepository = vibrationRepository;
+            CityRepository = cityRepository;
+            CountryRepository = countryRepository;
+            BreakdownRepository = breakdownRepository;
+            RenovationRepository = renovationRepository;
         }
 
         public void Save()
