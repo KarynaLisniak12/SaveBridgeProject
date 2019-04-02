@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.DataAccess.EF;
+using SaveBridge.DataAccess.Repositories.Interfaces;
 
 namespace SaveBridge
 {
@@ -29,20 +31,16 @@ namespace SaveBridge
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddAutoMapper();
-        }
 
-        // ConfigureContainer is where you can register things directly
-        // with Autofac. This runs after ConfigureServices so the things
-        // here will override registrations made in ConfigureServices.
-        // Don't build the container; that gets done for you. If you
-        // need a reference to the container, you need to use the
-        // "Without ConfigureContainer" mechanism shown later.
-        public void ConfigureContainer(ContainerBuilder builder)
-        {
-            var assembly = Assembly.GetExecutingAssembly();
-
-            builder.RegisterAssemblyTypes(assembly)
-                .AsImplementedInterfaces();
+            services.Scan(scan => scan
+                .FromAssemblyOf<IBuildingConstructionService>()
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithTransientLifetime()
+                .FromAssemblyOf<IBuildingConstructionRepository>()
+                .AddClasses()
+                .AsImplementedInterfaces()
+                .WithTransientLifetime());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

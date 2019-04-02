@@ -14,8 +14,8 @@ namespace SaveBridge.Controllers
             _service = service;
         }
 
-        [HttpPost]
-        public IActionResult Post([FromBody] CreateBuildingConstruction model)
+        [HttpPost("create")]
+        public IActionResult Create([FromBody] CreateBuildingConstruction model)
         {
             if (!ModelState.IsValid)
             {
