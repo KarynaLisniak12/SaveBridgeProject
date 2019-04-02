@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
-using SaveBridge.ViewModels.BuildingConstruction;
 using SaveBridge.ViewModels.BuildingConstructionType;
+using System;
 
 namespace SaveBridge.Controllers
 {
@@ -24,7 +23,7 @@ namespace SaveBridge.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] CreateBuildingTypeViewModel model)
+        public IActionResult Post([FromBody] CreateBuildingTypeViewModel model)
         {
             if (!ModelState.IsValid)
             {
