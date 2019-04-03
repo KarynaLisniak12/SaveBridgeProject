@@ -1,15 +1,15 @@
-﻿using System;
+﻿using SaveBridge.ViewModels.Breakdown;
+using System;
 using System.Collections.Generic;
-using SaveBridge.Entities;
 
 namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
     public interface IBreakdownService
     {
-        void Create(Breakdown breakdown);
+        void Create(CreateBreakdownViewModel breakdown);
 
-        IEnumerable<Breakdown> GetByBuildingConstructionId(Guid id);
+        IEnumerable<BreakdownViewModel> GetByBuildingConstructionId(Guid id);
 
-        void Update(Breakdown breakdown);
+        void Update(UpdateBreakdownViewModel breakdown);
     }
 }

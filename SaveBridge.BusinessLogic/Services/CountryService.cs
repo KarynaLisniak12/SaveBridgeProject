@@ -13,6 +13,12 @@ namespace SaveBridge.BusinessLogic.Services
         private readonly IMapper _mapper;
         private readonly IUnitOfWorks _unitOfWorks;
 
+        public CountryService(IMapper mapper, IUnitOfWorks unitOfWorks)
+        {
+            _mapper = mapper;
+            _unitOfWorks = unitOfWorks;
+        }
+
         public void Create(CreateCountryViewModel model)
         {
             var country = _mapper.Map<CreateCountryViewModel, Country>(model);
