@@ -1,15 +1,13 @@
 ﻿using System;
 
-namespace SaveBridge.Entities
+namespace SaveBridge.ViewModels.Renovation
 {
-    public class Renovation : Base
+    public class CreateRenovationViewModel
     {
         public Guid BuildingConstructionId { get; set; }
 
         public DateTime MeasurementDate { get; set; }
 
         public string Description { get; set; }
-
-        public BuildingConstruction BuildingConstruction { get; set; }
     }
 }

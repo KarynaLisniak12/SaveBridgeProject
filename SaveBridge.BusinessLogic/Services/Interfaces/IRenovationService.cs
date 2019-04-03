@@ -1,15 +1,15 @@
-﻿using System;
+﻿using SaveBridge.ViewModels.Renovation;
+using System;
 using System.Collections.Generic;
-using SaveBridge.Entities;
 
 namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
     public interface IRenovationService
     {
-        void Create(Renovation breakdown);
+        void Create(CreateRenovationViewModel breakdown);
 
-        IEnumerable<Renovation> GetByBuildingConstructionId(Guid id);
+        IEnumerable<RenovationViewModel> GetByBuildingConstructionId(Guid id);
 
-        void Update(Renovation breakdown);
+        void Update(UpdateRenovationViewModel breakdown);
     }
 }

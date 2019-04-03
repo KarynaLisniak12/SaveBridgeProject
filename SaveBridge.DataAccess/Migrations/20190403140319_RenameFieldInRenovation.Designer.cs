@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SaveBridge.DataAccess.EF;
 
 namespace SaveBridge.DataAccess.Migrations
 {
     [DbContext(typeof(SaveBridgeContext))]
-    partial class SaveBridgeContextModelSnapshot : ModelSnapshot
+    [Migration("20190403140319_RenameFieldInRenovation")]
+    partial class RenameFieldInRenovation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
