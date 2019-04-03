@@ -1,7 +1,6 @@
-﻿using System;
+﻿using SaveBridge.ViewModels.City;
+using System;
 using System.Collections.Generic;
-using SaveBridge.Entities;
-using SaveBridge.ViewModels.City;
 
 namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
@@ -9,7 +8,7 @@ namespace SaveBridge.BusinessLogic.Services.Interfaces
     {
         void Create(CreateCityViewModel city);
 
-        IEnumerable<CityViewModel> GetAll();
+        IEnumerable<CityViewModel> GetByCountryId(Guid id);
 
         void Delete(Guid id);
     }

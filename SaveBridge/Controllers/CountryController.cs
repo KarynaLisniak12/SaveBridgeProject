@@ -1,42 +1,41 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
-using SaveBridge.ViewModels.City;
-using System;
+using SaveBridge.ViewModels.Country;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CityController : ControllerBase
+    public class CountryController : ControllerBase
     {
-        private readonly ICityService _service;
+        private readonly ICountryService _service;
 
-        public CityController(ICityService service)
+        public CountryController(ICountryService service)
         {
             _service = service;
         }
 
         /// <summary>
-        /// Get Cities in specific Country
+        /// Get all Countries
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns>Cities</returns>
+        /// <returns>All Countries</returns>
         /// <response code="200">Success</response>
         [HttpGet]
-        public IActionResult GetByCountryId(Guid id)
+        public IActionResult GetAll()
         {
-            var result = _service.GetByCountryId(id);
+            var result = _service.GetAll();
             return Ok(result);
         }
 
         /// <summary>
-        /// Create new City
+        /// Create new Country
         /// </summary>
         /// <param name="model"></param>
         /// <response code="200">Success</response>
         /// <response code="400">Bad Request</response>
         [HttpPost]
-        public IActionResult Post([FromBody] CreateCityViewModel model)
+        public IActionResult Post([FromBody] CreateCountryViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -48,7 +47,7 @@ namespace SaveBridge.Controllers
         }
 
         /// <summary>
-        /// Delete a specific City
+        /// Delete a specific Country
         /// </summary>
         /// <param name="id"></param>
         /// <response code="200">Success</response>

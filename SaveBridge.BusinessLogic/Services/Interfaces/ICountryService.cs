@@ -1,14 +1,14 @@
-﻿using System;
+﻿using SaveBridge.ViewModels.Country;
+using System;
 using System.Collections.Generic;
-using SaveBridge.Entities;
 
 namespace SaveBridge.BusinessLogic.Services.Interfaces
 {
     public interface ICountryService
     {
-        void Create(Country country);
+        void Create(CreateCountryViewModel country);
 
-        IEnumerable<Country> GetAll();
+        IEnumerable<CountryViewModel> GetAll();
 
         void Delete(Guid id);
     }

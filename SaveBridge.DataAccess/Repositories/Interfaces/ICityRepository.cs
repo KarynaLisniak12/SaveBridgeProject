@@ -8,7 +8,7 @@ namespace SaveBridge.DataAccess.Repositories.Interfaces
     {
         void Add(City city);
 
-        IEnumerable<City> GetAll();
+        IEnumerable<City> GetByCountryId(Guid id);
 
         void Delete(Guid id);
     }

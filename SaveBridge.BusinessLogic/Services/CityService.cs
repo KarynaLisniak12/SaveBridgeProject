@@ -26,9 +26,9 @@ namespace SaveBridge.BusinessLogic.Services
             _unitOfWorks.CityRepository.Add(city);
         }
 
-        public IEnumerable<CityViewModel> GetAll()
+        public IEnumerable<CityViewModel> GetAll(Guid id)
         {
-            var result = _unitOfWorks.CityRepository.GetAll();
+            var result = _unitOfWorks.CityRepository.GetByCountryId(id);
 
             var cities = _mapper.Map<IEnumerable<City>, IEnumerable<CityViewModel>>(result);
             return cities;
