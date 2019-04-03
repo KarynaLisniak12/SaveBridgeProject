@@ -1,4 +1,4 @@
-﻿namespace SaveBridge.ViewModels.BuildingConstruction
+﻿namespace SaveBridge.ViewModels.BuildingConstructionType
 {
     public class CreateBuildingTypeViewModel
     {

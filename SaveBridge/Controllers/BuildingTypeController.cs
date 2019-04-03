@@ -6,15 +6,21 @@ using System;
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
-    public class BuildingConstructionTypeController : Controller
+    [ApiController]
+    public class BuildingTypeController : ControllerBase
     {
         private readonly IBuildingConstructionTypeService _service;
 
-        public BuildingConstructionTypeController(IBuildingConstructionTypeService service)
+        public BuildingTypeController(IBuildingConstructionTypeService service)
         {
             _service = service;
         }
 
+        /// <summary>
+        /// Get all Building Construction types
+        /// </summary>
+        /// <returns>All Building Construction Types</returns>
+        /// <response code="200">Success</response>
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -22,6 +28,12 @@ namespace SaveBridge.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// Create new Building Construction type
+        /// </summary>
+        /// <param name="model"></param>
+        /// <response code="200">Success</response>
+        /// <response code="400">Bad Request</response>
         [HttpPost]
         public IActionResult Post([FromBody] CreateBuildingTypeViewModel model)
         {
@@ -34,6 +46,11 @@ namespace SaveBridge.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Delete a specific Building Construction type
+        /// </summary>
+        /// <param name="id"></param>
+        /// <response code="200">Success</response>
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {
@@ -41,6 +58,12 @@ namespace SaveBridge.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Update a specific Building Construction type
+        /// </summary>
+        /// <param name="model"></param>
+        /// <response code="200">Success</response>
+        /// <response code="400">Bad Request</response>
         [HttpPut]
         public IActionResult Put([FromBody] UpdateBuildingTypeViewModel model)
         {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using SaveBridge.Entities;
 
 namespace SaveBridge.DataAccess.Repositories.Interfaces
@@ -7,7 +8,7 @@ namespace SaveBridge.DataAccess.Repositories.Interfaces
     {
         void Add(BuildingConstruction buildingConstruction);
 
-        BuildingConstruction GetById(Guid id);
+        IEnumerable<BuildingConstruction> GetByCityId(Guid id);
 
         void Update(BuildingConstruction buildingConstruction);
 

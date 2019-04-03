@@ -1,5 +1,4 @@
-﻿using SaveBridge.ViewModels.BuildingConstruction;
-using SaveBridge.ViewModels.BuildingConstructionType;
+﻿using SaveBridge.ViewModels.BuildingConstructionType;
 using System;
 using System.Collections.Generic;
 
