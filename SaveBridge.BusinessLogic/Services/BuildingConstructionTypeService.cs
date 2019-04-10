@@ -25,6 +25,7 @@ namespace SaveBridge.BusinessLogic.Services
                 .Map<CreateBuildingTypeViewModel, BuildingConstructionType>(model);
 
             _unitOfWorks.BuildingConstructionTypeRepository.Add(buildingConstructionType);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<BuildingTypeViewModel> GetAll()
@@ -39,6 +40,7 @@ namespace SaveBridge.BusinessLogic.Services
         public void Delete(Guid id)
         {
             _unitOfWorks.BuildingConstructionTypeRepository.Delete(id);
+            _unitOfWorks.Save();
         }
 
         public void Update(UpdateBuildingTypeViewModel model)
@@ -47,6 +49,7 @@ namespace SaveBridge.BusinessLogic.Services
                 BuildingConstructionType>(model);
 
             _unitOfWorks.BuildingConstructionTypeRepository.Update(buildingConstructionType);
+            _unitOfWorks.Save();
         }
     }
 }

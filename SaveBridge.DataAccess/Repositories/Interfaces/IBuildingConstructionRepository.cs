@@ -10,6 +10,8 @@ namespace SaveBridge.DataAccess.Repositories.Interfaces
 
         IEnumerable<BuildingConstruction> GetByCityId(Guid id);
 
+        BuildingConstruction GetById(Guid id);
+
         void Update(BuildingConstruction buildingConstruction);
 
         void Delete(Guid id);

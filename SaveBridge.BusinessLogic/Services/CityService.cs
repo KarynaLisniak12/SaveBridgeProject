@@ -24,6 +24,7 @@ namespace SaveBridge.BusinessLogic.Services
             var city = _mapper.Map<CreateCityViewModel, City>(model);
 
             _unitOfWorks.CityRepository.Add(city);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<CityViewModel> GetByCountryId(Guid id)
@@ -37,6 +38,7 @@ namespace SaveBridge.BusinessLogic.Services
         public void Delete(Guid id)
         {
             _unitOfWorks.CityRepository.Delete(id);
+            _unitOfWorks.Save();
         }
     }
 }

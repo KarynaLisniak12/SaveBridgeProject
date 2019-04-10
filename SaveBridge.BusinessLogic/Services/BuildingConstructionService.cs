@@ -25,6 +25,7 @@ namespace SaveBridge.BusinessLogic.Services
                 .Map<CreateBuildingViewModel, BuildingConstruction>(model);
 
             _unitOfWorks.BuildingConstructionRepository.Add(buildingConstruction);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<BuildingViewModel> GetByCityId(Guid id)
@@ -42,11 +43,13 @@ namespace SaveBridge.BusinessLogic.Services
                 BuildingConstruction>(model);
 
             _unitOfWorks.BuildingConstructionRepository.Update(buildingConstruction);
+            _unitOfWorks.Save();
         }
 
         public void Delete(Guid id)
         {
             _unitOfWorks.BuildingConstructionRepository.Delete(id);
+            _unitOfWorks.Save();
         }
     }
 }
