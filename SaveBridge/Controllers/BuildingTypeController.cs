@@ -2,11 +2,13 @@
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.BuildingConstructionType;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BuildingTypeController : ControllerBase
     {
         private readonly IBuildingConstructionTypeService _service;

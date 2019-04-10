@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.Vibration;
@@ -7,6 +8,7 @@ namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class VibrationController : ControllerBase
     {
         private readonly IVibrationService _service;

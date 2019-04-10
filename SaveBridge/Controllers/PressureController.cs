@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.Pressure;
-using SaveBridge.ViewModels.Renovation;
+using System;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PressureController : ControllerBase
     {
         private readonly IPressureService _service;

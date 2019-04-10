@@ -2,11 +2,13 @@
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.City;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CityController : ControllerBase
     {
         private readonly ICityService _service;
