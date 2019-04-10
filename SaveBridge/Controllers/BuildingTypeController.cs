@@ -23,7 +23,7 @@ namespace SaveBridge.Controllers
         /// </summary>
         /// <returns>All Building Construction Types</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("buildingTypes")]
         public IActionResult GetAll()
         {
             var result = _service.GetAll();

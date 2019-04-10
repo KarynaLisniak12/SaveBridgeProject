@@ -24,7 +24,7 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Building Constructions in specific city</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("getByCityId/{id}")]
         public IActionResult GetByCityId(Guid id)
         {
             var result = _service.GetByCityId(id);

@@ -23,7 +23,7 @@ namespace SaveBridge.Controllers
         /// </summary>
         /// <returns>All Countries</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("countries")]
         public IActionResult GetAll()
         {
             var result = _service.GetAll();

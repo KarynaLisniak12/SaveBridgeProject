@@ -24,7 +24,7 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Cities</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("getByCountryId/{id}")]
         public IActionResult GetByCountryId(Guid id)
         {
             var result = _service.GetByCountryId(id);

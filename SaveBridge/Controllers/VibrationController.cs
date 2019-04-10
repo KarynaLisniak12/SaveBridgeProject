@@ -24,8 +24,8 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Vibration records of specific Building Construction</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
-        public IActionResult GetByBuildingConstructionId(Guid id)
+        [HttpGet("getByBuildingId/{id}")]
+        public IActionResult GetByBuildingId(Guid id)
         {
             var result = _service.GetByBuildingConstructionId(id);
             return Ok(result);
