@@ -1,0 +1,46 @@
+﻿using Microsoft.AspNetCore.Identity;
+using SaveBridge.Entities;
+using SaveBridge.ViewModels.Account;
+using System.Threading.Tasks;
+using AutoMapper;
+
+namespace SaveBridge.BusinessLogic.Services
+{
+    public class AccountService
+    {
+        private readonly IMapper _mapper;
+        private readonly UserManager<ApplicationUser> _userManager;
+
+        public AccountService(IMapper mapper, UserManager<ApplicationUser> userManager)
+        {
+            _mapper = mapper;
+            _userManager = userManager;
+        }
+
+        public async Task<bool> IsRegistered(SignInViewModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return false;
+            }
+
+            var isCorrectPassword = await _userManager.CheckPasswordAsync(user, model.Password);
+            return isCorrectPassword;
+        }
+
+        public async Task<bool> SignUp(SignUpViewModel model)
+        {
+            ApplicationUser user = _mapper.Map<SignUpViewModel, ApplicationUser>(model);
+
+            var registeredUser = await _userManager.FindByEmailAsync(model.Email);
+            if (registeredUser != null)
+            {
+                return false;
+            }
+
+            var result = await _userManager.CreateAsync(user);
+            return result.Succeeded;
+        }
+    }
+}
