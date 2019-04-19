@@ -7,3 +7,12 @@ E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\n
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.AssemblyInfo.cs
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.deps.json
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.csprojAssemblyReference.cache
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.AssemblyInfo.cs
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
+C:\Users\Anuitex\Source\Repos\SaveBridgeProject\SaveBridge.ViewModels\obj\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb

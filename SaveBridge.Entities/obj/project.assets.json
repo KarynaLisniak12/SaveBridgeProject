@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Anuitex\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
       "projectName": "SaveBridge.Entities",
-      "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\obj\\",
+      "projectPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
+      "packagesPath": "C:\\Users\\Anuitex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anuitex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

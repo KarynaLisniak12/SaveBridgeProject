@@ -1846,6 +1846,7 @@
       "path": "system.diagnostics.debug/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1938,6 +1939,7 @@
       "path": "system.globalization/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2026,6 +2028,7 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2412,6 +2415,7 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2661,6 +2665,7 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2771,6 +2776,7 @@
       "path": "system.resources.resourcemanager/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2827,6 +2833,7 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2943,6 +2950,7 @@
       "path": "system.runtime.extensions/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3090,6 +3098,7 @@
       "path": "system.threading/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3160,6 +3169,7 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3246,23 +3256,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Anuitex\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
       "projectName": "SaveBridge.BusinessLogic",
-      "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\obj\\",
+      "projectPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Anuitex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anuitex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3275,11 +3285,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
-              "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj"
+            "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj"
             },
-            "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
-              "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj"
+            "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj"
             }
           }
         }

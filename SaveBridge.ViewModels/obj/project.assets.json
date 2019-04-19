@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Anuitex\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
       "projectName": "SaveBridge.ViewModels",
-      "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\obj\\",
+      "projectPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\Anuitex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anuitex\\Source\\Repos\\SaveBridgeProject\\SaveBridge.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anuitex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
