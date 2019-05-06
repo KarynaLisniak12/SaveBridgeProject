@@ -21,3 +21,5 @@ E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.dll
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.BusinessLogic.pdb
 E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.ViewModels.pdb
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\bin\Debug\netcoreapp2.2\SaveBridge.xml
+E:\University\6semestr\AAPZ\Project\SaveBridge\SaveBridge\obj\Debug\netcoreapp2.2\SaveBridge.xml

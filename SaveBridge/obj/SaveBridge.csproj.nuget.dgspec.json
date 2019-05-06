@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge\\SaveBridge.csproj": {}
+  },
+  "projects": {
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
+        "projectName": "SaveBridge.BusinessLogic",
+        "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj"
+              },
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj",
+        "projectName": "SaveBridge.DataAccess",
+        "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
+        "projectName": "SaveBridge.Entities",
+        "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\SaveBridge.Entities.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
+        "projectName": "SaveBridge.ViewModels",
+        "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge\\SaveBridge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge\\SaveBridge.csproj",
+        "projectName": "SaveBridge",
+        "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge\\SaveBridge.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.BusinessLogic\\SaveBridge.BusinessLogic.csproj"
+              },
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.DataAccess\\SaveBridge.DataAccess.csproj"
+              },
+              "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj": {
+                "projectPath": "E:\\University\\6semestr\\AAPZ\\Project\\SaveBridge\\SaveBridge.ViewModels\\SaveBridge.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SaveBridge</name>
+    </assembly>
+    <members>
+        <member name="M:SaveBridge.Controllers.BreakdownController.Post(SaveBridge.ViewModels.Breakdown.CreateBreakdownViewModel)">
+            <summary>
+            Create new Breakdown
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BreakdownController.Put(SaveBridge.ViewModels.Breakdown.UpdateBreakdownViewModel)">
+            <summary>
+            Update a specific Breakdown
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingController.GetByCityId(System.Guid)">
+            <summary>
+            Get Building Constructions by City
+            </summary>
+            <param name="id"></param>
+            <returns>Building Constructions in specific city</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingController.Post(SaveBridge.ViewModels.BuildingConstruction.CreateBuildingViewModel)">
+            <summary>
+            Create new Building Construction
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingController.Delete(System.Guid)">
+            <summary>
+            Delete a specific Building Construction
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingController.Put(SaveBridge.ViewModels.BuildingConstruction.UpdateBuildingViewModel)">
+            <summary>
+            Update a specific Building Construction type
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingTypeController.GetAll">
+            <summary>
+            Get all Building Construction types
+            </summary>
+            <returns>All Building Construction Types</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingTypeController.Post(SaveBridge.ViewModels.BuildingConstructionType.CreateBuildingTypeViewModel)">
+            <summary>
+            Create new Building Construction type
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingTypeController.Delete(System.Guid)">
+            <summary>
+            Delete a specific Building Construction type
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingTypeController.Put(SaveBridge.ViewModels.BuildingConstructionType.UpdateBuildingTypeViewModel)">
+            <summary>
+            Update a specific Building Construction type
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CityController.GetByCountryId(System.Guid)">
+            <summary>
+            Get Cities in specific Country
+            </summary>
+            <param name="id"></param>
+            <returns>Cities</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CityController.Post(SaveBridge.ViewModels.City.CreateCityViewModel)">
+            <summary>
+            Create new City
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CityController.Delete(System.Guid)">
+            <summary>
+            Delete a specific City
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CountryController.GetAll">
+            <summary>
+            Get all Countries
+            </summary>
+            <returns>All Countries</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CountryController.Post(SaveBridge.ViewModels.Country.CreateCountryViewModel)">
+            <summary>
+            Create new Country
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.CountryController.Delete(System.Guid)">
+            <summary>
+            Delete a specific Country
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.PressureController.GetByBuildingConstructionId(System.Guid)">
+            <summary>
+            Get Pressure records by Building Construction id
+            </summary>
+            <param name="id"></param>
+            <returns>Pressure records of specific Building Construction</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.PressureController.Post(SaveBridge.ViewModels.Pressure.CreatePressureViewModel)">
+            <summary>
+            Create new Pressure Record
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.RenovationController.GetByBuildingConstructionId(System.Guid)">
+            <summary>
+            Get Renovations by Building Construction id
+            </summary>
+            <param name="id"></param>
+            <returns>Renovations of specific Building Construction</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.RenovationController.Post(SaveBridge.ViewModels.Renovation.CreateRenovationViewModel)">
+            <summary>
+            Create new Renovation
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.RenovationController.Put(SaveBridge.ViewModels.Renovation.UpdateRenovationViewModel)">
+            <summary>
+            Update a specific Renovation
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.VibrationController.GetByBuildingConstructionId(System.Guid)">
+            <summary>
+            Get Vibration records by Building Construction id
+            </summary>
+            <param name="id"></param>
+            <returns>Vibration records of specific Building Construction</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.VibrationController.Post(SaveBridge.ViewModels.Vibration.CreateVibrationViewModel)">
+            <summary>
+            Create new Vibration Record
+            </summary>
+            <param name="model"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+    </members>
+</doc>
