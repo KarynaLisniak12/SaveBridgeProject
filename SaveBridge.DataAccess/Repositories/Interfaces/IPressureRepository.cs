@@ -9,5 +9,7 @@ namespace SaveBridge.DataAccess.Repositories.Interfaces
         void Add(Pressure pressure);
 
         IEnumerable<Pressure> GetByBuildingConstructionId(Guid id);
+
+        Pressure GetLastByBuildingId(Guid id);
     }
 }

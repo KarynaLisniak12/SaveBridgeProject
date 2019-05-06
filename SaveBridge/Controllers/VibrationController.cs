@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.Vibration;
@@ -7,6 +8,7 @@ namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class VibrationController : ControllerBase
     {
         private readonly IVibrationService _service;
@@ -22,8 +24,8 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Vibration records of specific Building Construction</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
-        public IActionResult GetByBuildingConstructionId(Guid id)
+        [HttpGet("getByBuildingId/{id}")]
+        public IActionResult GetByBuildingId(Guid id)
         {
             var result = _service.GetByBuildingConstructionId(id);
             return Ok(result);

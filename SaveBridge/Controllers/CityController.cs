@@ -2,11 +2,13 @@
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.City;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CityController : ControllerBase
     {
         private readonly ICityService _service;
@@ -22,7 +24,7 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Cities</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("getByCountryId/{id}")]
         public IActionResult GetByCountryId(Guid id)
         {
             var result = _service.GetByCountryId(id);

@@ -4,6 +4,33 @@
         <name>SaveBridge</name>
     </assembly>
     <members>
+        <member name="M:SaveBridge.Controllers.AccountController.SignIn(SaveBridge.ViewModels.Account.SignInViewModel)">
+            <summary>
+            Sign In by credentials
+            </summary>
+            <param name="model"></param>
+            <returns>JWT token</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.AccountController.SignUp(SaveBridge.ViewModels.Account.SignUpViewModel)">
+            <summary>
+            Sign Up by credentials
+            </summary>
+            <param name="model"></param>
+            <returns>JWT token</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BreakdownController.GetByBuildingConstructionId(System.Guid)">
+            <summary>
+            Get Breakdowns by Building Construction id
+            </summary>
+            <param name="id"></param>
+            <returns>Breakdowns of specific Building Construction</returns>
+            <response code="200">Success</response>
+        </member>
         <member name="M:SaveBridge.Controllers.BreakdownController.Post(SaveBridge.ViewModels.Breakdown.CreateBreakdownViewModel)">
             <summary>
             Create new Breakdown
@@ -19,6 +46,13 @@
             <param name="model"></param>
             <response code="200">Success</response>
             <response code="400">Bad Request</response>
+        </member>
+        <member name="M:SaveBridge.Controllers.BuildingController.GetAll">
+            <summary>
+            Get All Building Constructions
+            </summary>
+            <returns>All Building Constructions</returns>
+            <response code="200">Success</response>
         </member>
         <member name="M:SaveBridge.Controllers.BuildingController.GetByCityId(System.Guid)">
             <summary>
@@ -126,7 +160,7 @@
             <param name="id"></param>
             <response code="200">Success</response>
         </member>
-        <member name="M:SaveBridge.Controllers.PressureController.GetByBuildingConstructionId(System.Guid)">
+        <member name="M:SaveBridge.Controllers.PressureController.GetByBuildingId(System.Guid)">
             <summary>
             Get Pressure records by Building Construction id
             </summary>
@@ -142,7 +176,7 @@
             <response code="200">Success</response>
             <response code="400">Bad Request</response>
         </member>
-        <member name="M:SaveBridge.Controllers.RenovationController.GetByBuildingConstructionId(System.Guid)">
+        <member name="M:SaveBridge.Controllers.RenovationController.GetByBuildingId(System.Guid)">
             <summary>
             Get Renovations by Building Construction id
             </summary>
@@ -166,7 +200,7 @@
             <response code="200">Success</response>
             <response code="400">Bad Request</response>
         </member>
-        <member name="M:SaveBridge.Controllers.VibrationController.GetByBuildingConstructionId(System.Guid)">
+        <member name="M:SaveBridge.Controllers.VibrationController.GetByBuildingId(System.Guid)">
             <summary>
             Get Vibration records by Building Construction id
             </summary>

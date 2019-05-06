@@ -138,7 +138,7 @@ namespace SaveBridge.DataAccess.Migrations
 
                     b.Property<string>("Address");
 
-                    b.Property<Guid>("CityId");
+                    b.Property<Guid?>("CityId");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
@@ -216,6 +216,10 @@ namespace SaveBridge.DataAccess.Migrations
                     b.Property<Guid>("CityId");
 
                     b.Property<double>("CurrentBreakdownPercent");
+
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
 
                     b.Property<string>("Title");
 
@@ -371,8 +375,7 @@ namespace SaveBridge.DataAccess.Migrations
                 {
                     b.HasOne("SaveBridge.Entities.City", "City")
                         .WithMany()
-                        .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("CityId");
                 });
 
             modelBuilder.Entity("SaveBridge.Entities.Breakdown", b =>

@@ -5,7 +5,7 @@ namespace SaveBridge.Entities
 {
     public class ApplicationUser : IdentityUser
     {
-        public Guid CityId { get; set; }
+        public Guid? CityId { get; set; }
 
         public string Address { get; set; }
 

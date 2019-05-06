@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.BuildingConstruction;
@@ -17,12 +18,24 @@ namespace SaveBridge.Controllers
         }
 
         /// <summary>
+        /// Get All Building Constructions
+        /// </summary>
+        /// <returns>All Building Constructions</returns>
+        /// <response code="200">Success</response>
+        [HttpGet("getAll")]
+        public IActionResult GetAll()
+        {
+            var result = _service.GetAll();
+            return Ok(result);
+        }
+
+        /// <summary>
         /// Get Building Constructions by City
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Building Constructions in specific city</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("getByCityId/{id}")]
         public IActionResult GetByCityId(Guid id)
         {
             var result = _service.GetByCityId(id);

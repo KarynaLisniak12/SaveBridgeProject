@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using SaveBridge.BusinessLogic.Helpers;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.DataAccess.EF.Interfaces;
 using SaveBridge.Entities;
@@ -21,10 +22,15 @@ namespace SaveBridge.BusinessLogic.Services
 
         public void Create(CreateBreakdownViewModel model)
         {
-            var breakdown = _mapper.Map<CreateBreakdownViewModel, 
-                Breakdown>(model);
+            var breakdown = _mapper.Map<CreateBreakdownViewModel, Breakdown>(model);
+            breakdown.BreakdownPercent = GetBreakdownPercent(model.BuildingConstructionId);
+
+            var building = _unitOfWorks.BuildingConstructionRepository.GetById(breakdown.BuildingConstructionId);
+            building.CurrentBreakdownPercent = breakdown.BreakdownPercent;
+            _unitOfWorks.BuildingConstructionRepository.Update(building);
 
             _unitOfWorks.BreakdownRepository.Add(breakdown);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<BreakdownViewModel> GetByBuildingConstructionId(Guid id)
@@ -41,6 +47,16 @@ namespace SaveBridge.BusinessLogic.Services
             var breakdown = _mapper.Map<UpdateBreakdownViewModel, Breakdown>(model);
 
             _unitOfWorks.BreakdownRepository.Update(breakdown);
+            _unitOfWorks.Save();
+        }
+
+        private double GetBreakdownPercent(Guid id)
+        {
+            Pressure pressure = _unitOfWorks.PressureRepository.GetLastByBuildingId(id);
+            Vibration vibration = _unitOfWorks.VibrationRepository.GetLastByBuildingId(id);
+
+            double breakdownPercent = BreakdownPercentHelper.CountBreakdownPercent(pressure.Value, vibration.Value);
+            return breakdownPercent;
         }
     }
 }

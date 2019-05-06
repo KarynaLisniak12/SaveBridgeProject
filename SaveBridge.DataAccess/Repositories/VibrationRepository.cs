@@ -22,5 +22,14 @@ namespace SaveBridge.DataAccess.Repositories
                 .Where(item => item.BuildingConstructionId == id);
             return vibrationValues;
         }
+
+        public Vibration GetLastByBuildingId(Guid id)
+        {
+            var vibration = _dbContext.Vibrations
+                .Where(item => item.BuildingConstructionId == id)
+                .OrderByDescending(item => item.MeasurementDate)
+                .FirstOrDefault();
+            return vibration;
+        }
     }
 }

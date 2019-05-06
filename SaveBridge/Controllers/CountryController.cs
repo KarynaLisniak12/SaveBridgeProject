@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.Country;
@@ -7,6 +8,7 @@ namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CountryController : ControllerBase
     {
         private readonly ICountryService _service;
@@ -21,7 +23,7 @@ namespace SaveBridge.Controllers
         /// </summary>
         /// <returns>All Countries</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("countries")]
         public IActionResult GetAll()
         {
             var result = _service.GetAll();

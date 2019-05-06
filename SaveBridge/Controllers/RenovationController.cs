@@ -2,11 +2,13 @@
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.Renovation;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RenovationController : ControllerBase
     {
         private readonly IRenovationService _service;
@@ -22,8 +24,8 @@ namespace SaveBridge.Controllers
         /// <param name="id"></param>
         /// <returns>Renovations of specific Building Construction</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
-        public IActionResult GetByBuildingConstructionId(Guid id)
+        [HttpGet("getByBuildingId/{id}")]
+        public IActionResult GetByBuildingId(Guid id)
         {
             var result = _service.GetByBuildingConstructionId(id);
             return Ok(result);

@@ -24,6 +24,7 @@ namespace SaveBridge.BusinessLogic.Services
             var breakdown = _mapper.Map<CreateRenovationViewModel, Renovation>(model);
 
             _unitOfWorks.RenovationRepository.Add(breakdown);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<RenovationViewModel> GetByBuildingConstructionId(Guid id)
@@ -40,6 +41,7 @@ namespace SaveBridge.BusinessLogic.Services
             var renovations = _mapper.Map<UpdateRenovationViewModel, Renovation>(model);
 
             _unitOfWorks.RenovationRepository.Update(renovations);
+            _unitOfWorks.Save();
         }
     }
 }

@@ -1,19 +1,21 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using SaveBridge.BusinessLogic.AutoMapper;
 using SaveBridge.DataAccess.EF;
+using SaveBridge.Entities;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace SaveBridge
 {
@@ -33,6 +35,11 @@ namespace SaveBridge
 
             services.AddDbContext<SaveBridgeContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            // Register Identity
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<SaveBridgeContext>()
+                .AddDefaultTokenProviders(); ;
 
             // Register JWT
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -73,7 +80,7 @@ namespace SaveBridge
             // Register Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info() { Title = "SaveBridge", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo() { Title = "SaveBridge", Version = "v1" });
 
                 string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -92,6 +99,12 @@ namespace SaveBridge
             {
                 app.UseHsts();
             }
+
+            app.UseCors(builder => builder
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader()
+                            .AllowCredentials());
 
             app.UseAuthentication();
 

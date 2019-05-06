@@ -8,7 +8,11 @@ namespace SaveBridge.DataAccess.Repositories.Interfaces
     {
         void Add(BuildingConstruction buildingConstruction);
 
+        IEnumerable<BuildingConstruction> GetAll();
+
         IEnumerable<BuildingConstruction> GetByCityId(Guid id);
+
+        BuildingConstruction GetById(Guid id);
 
         void Update(BuildingConstruction buildingConstruction);
 

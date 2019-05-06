@@ -24,6 +24,7 @@ namespace SaveBridge.BusinessLogic.Services
             Vibration vibration = _mapper.Map<CreateVibrationViewModel, Vibration>(model);
 
             _unitOfWorks.VibrationRepository.Add(vibration);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<VibrationViewModel> GetByBuildingConstructionId(Guid id)

@@ -24,6 +24,7 @@ namespace SaveBridge.BusinessLogic.Services
             Pressure pressure = _mapper.Map<CreatePressureViewModel, Pressure>(model);
 
             _unitOfWorks.PressureRepository.Add(pressure);
+            _unitOfWorks.Save();
         }
 
         public IEnumerable<PressureViewModel> GetByBuildingConstructionId(Guid id)

@@ -22,5 +22,14 @@ namespace SaveBridge.DataAccess.Repositories
                 .Where(item => item.BuildingConstructionId == id);
             return pressureValues;
         }
+
+        public Pressure GetLastByBuildingId(Guid id)
+        {
+            var pressure = _dbContext.Pressures
+                .Where(item => item.BuildingConstructionId == id)
+                .OrderByDescending(item => item.MeasurementDate)
+                .FirstOrDefault();
+            return pressure;
+        }
     }
 }

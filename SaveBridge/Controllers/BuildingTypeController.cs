@@ -2,11 +2,13 @@
 using SaveBridge.BusinessLogic.Services.Interfaces;
 using SaveBridge.ViewModels.BuildingConstructionType;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SaveBridge.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BuildingTypeController : ControllerBase
     {
         private readonly IBuildingConstructionTypeService _service;
@@ -21,7 +23,7 @@ namespace SaveBridge.Controllers
         /// </summary>
         /// <returns>All Building Construction Types</returns>
         /// <response code="200">Success</response>
-        [HttpGet]
+        [HttpGet("buildingTypes")]
         public IActionResult GetAll()
         {
             var result = _service.GetAll();

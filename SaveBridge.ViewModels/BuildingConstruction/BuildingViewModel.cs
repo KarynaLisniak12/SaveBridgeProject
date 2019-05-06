@@ -8,10 +8,14 @@ namespace SaveBridge.ViewModels.BuildingConstruction
 
         public string Title { get; set; }
 
-        public string City { get; set; }
+        public double Longitude { get; set; }
+
+        public double Latitude { get; set; }
+
+        public string CityId { get; set; }
 
         public string Address { get; set; }
 
-        public double BreakdownPercent { get; set; }
+        public double CurrentBreakdownPercent { get; set; }
     }
 }

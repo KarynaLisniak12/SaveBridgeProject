@@ -8,6 +8,8 @@ namespace SaveBridge.BusinessLogic.Services.Interfaces
     {
         void Create(CreateBuildingViewModel buildingConstruction);
 
+        IEnumerable<BuildingViewModel> GetAll();
+
         IEnumerable<BuildingViewModel> GetByCityId(Guid id);
 
         void Update(UpdateBuildingViewModel buildingConstruction);
